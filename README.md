@@ -10,3 +10,5 @@ All outputs from the box model used in the paper are also included in this repo.
 Note that the box model and inverse routine are contained in the repos:
 [AGAGE 12-box model](https://github.com/mrghg/py12box) and
 [AGAGE 12-box model inversion](https://github.com/mrghg/py12box_invert)
+
+NOTE: This is still subject to peer review and should not be used for any research or reporting purposes.
