@@ -15,4 +15,6 @@ Emissions and modelled mole fraction estimates for CFC-112, CFC-112a, CFC-113, C
 
 Emissions and modelled mole fraction estimates for CFC-13 and CFC-115 are in the folder /data_allagage/. Inputs to the model are within the folder for each gas (each gas contains the folders /inputs/ and /outputs/). These measurements were made as part of the AGAGE network.
 
+NOAA mole fractions used in the paper are contained in the directory /obs_raw/. For the most up-to-date data please access https://gml.noaa.gov/aftp/data/hats/PERSEUS/ and https://gml.noaa.gov/aftp/data/hats/cfcs/ . 
+
 NOTE: This is still subject to peer review and should not be used for any research or reporting purposes.
