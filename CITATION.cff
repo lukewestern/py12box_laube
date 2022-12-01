@@ -1,0 +1,9 @@
+cff-version: 1.0.0
+message: "If you use software or data from this repository, please cite it as below."
+authors:
+  - family-names: Western
+    given-names: Luke
+    orcid: https://orcid.org/0000-0002-0043-711X
+title: lukewestern/py12box_laube: Minor CFC inputs and outputs 
+version: v1.1.1
+date-released: 2022-12-01
