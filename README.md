@@ -17,4 +17,6 @@ Emissions and modelled mole fraction estimates for CFC-13 and CFC-115 are in the
 
 NOAA mole fractions used in the paper are contained in the directory /obs_raw/. For the most up-to-date data please access https://gml.noaa.gov/aftp/data/hats/PERSEUS/ and https://gml.noaa.gov/aftp/data/hats/cfcs/ . 
 
+Please contact data owners before using measurement data.
+
 NOTE: This is still subject to peer review and should not be used for any research or reporting purposes.
