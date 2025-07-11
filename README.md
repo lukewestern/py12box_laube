@@ -19,4 +19,4 @@ NOAA mole fractions used in the paper are contained in the directory /obs_raw/. 
 
 Please contact data owners before using measurement data.
 
-NOTE: This is still subject to peer review and should not be used for any research or reporting purposes.
+

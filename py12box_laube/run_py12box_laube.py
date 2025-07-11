@@ -23,7 +23,8 @@ print(f"Running {species_search_string}, index {species_index} on {nthreads} thr
 
 # Hardwire Martin's species list
 # species_list = ["HCFC-133a", "HCFC-31","HCFC-132b"]
-species_list = ["CFC-112", "CFC-112a", "CFC-113","CFC-113a", "CFC-114", "CFC-114a"]
+# species_list = ["CFC-112", "CFC-112a", "CFC-113","CFC-113a", "CFC-114", "CFC-114a"]
+species_list = ["H-1202"]
 
 if species_search_string != "all":
     species_list = [s for s in species_list if species_search_string in s]
@@ -54,10 +55,10 @@ inversion_params = get_inversion_params(species)
 # Set up inversion
 inv = Invert(project_path / "inputs", species,
             obs_path = obs_path,
-            method="rigby14",
+            method="iterative_rigby14",
             n_threads=nthreads,
             sensitivity_freq=inversion_params.loc["Sensitivity frequency"],
-            end_year=2021.)
+            end_year=2024.)
 
 
 # Calculate emissions uncertainty
